@@ -26,6 +26,11 @@ class ConfBack extends HTMLElement {
 			await signOut(auth);
 			console.log('User signed out successfully');
 
+			// Borrar datos del Local Storage
+			localStorage.removeItem('image');
+			localStorage.removeItem('user');
+			localStorage.removeItem('username');
+
 			// Establecer los valores deseados en los atributos del componente
 			this.setAttribute('name', 'sofia');
 			this.setAttribute('username', 'shine');
