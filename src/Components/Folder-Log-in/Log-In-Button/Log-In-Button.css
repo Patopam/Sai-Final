@@ -1,0 +1,38 @@
+section {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Button-Continue {
+	background-color: #d9d9d9;
+	width: 160px;
+	height: 45px;
+	border-radius: 25px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: Satoshi;
+	border: transparent;
+}
+.Button-Continue:active {
+	color: #d9d9d9;
+	background-color: #171640; /* Cambia el color de fondo cuando se presiona el botón */
+}
+.Box-SingIn {
+	display: flex;
+	color: #7796f1;
+	font-size: 18px;
+	font-family: Satoshi;
+}
+.Button-SingIn {
+	background-color: transparent;
+	border: transparent;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.Button-SingIn:active {
+	color: #171640;
+}

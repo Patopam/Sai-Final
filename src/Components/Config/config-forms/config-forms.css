@@ -1,0 +1,33 @@
+.box-Forms {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.Forms {
+	width: 350px;
+	height: 40px;
+	margin: 10px;
+	background-color: #393879;
+	border-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+}
+
+::placeholder {
+	color: #7796f1;
+	font-family: Satoshi;
+	font-size: 18px;
+	border-color: transparent;
+}
+
+@media (max-width: 400px) {
+	.Forms {
+		width: 300px;
+	}
+}

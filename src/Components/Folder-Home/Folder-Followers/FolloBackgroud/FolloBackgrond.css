@@ -1,0 +1,49 @@
+.box-followers {
+	position: absolute;
+	width: 328px;
+	height: 340px;
+
+	background: #25245e;
+	border-radius: 20px;
+}
+.Who h2 {
+	position: absolute;
+	width: 146px;
+	height: 30px;
+	left: 20px;
+	top: 15px;
+	margin: 0px;
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+}
+.Show button {
+	/* Show more */
+
+	position: absolute;
+	width: 90px;
+	height: 30px;
+	left: 20px;
+	top: 290px;
+	margin: 0px;
+	font-family: 'Satoshi';
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #7796f1;
+}
+
+.Show button {
+	background-color: #25245e; /* Color de fondo original */
+	border: none;
+	border-radius: 5px;
+	transition: background-color 0.3s; /* Agrega una transición para suavizar el cambio de color */
+}
+
+.Show button:active {
+	color: #25245e; /* Cambia el color del texto cuando se presiona */
+	background-color: #7796f1; /* Cambia el color de fondo cuando se presiona el botón */
+}

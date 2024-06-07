@@ -1,0 +1,178 @@
+.componente {
+	height: 340px;
+}
+.post {
+	height: 275px;
+	display: flex;
+	justify-content: center;
+}
+.info {
+	display: flex;
+	width: 150px;
+	height: 33px;
+}
+p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imagen-post {
+	height: 250px;
+	width: 200px;
+	border-radius: 8px;
+	border: 1px solid #000;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	Object-fit: cover
+}
+.imagen-usuario {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.info p {
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+	color: #ffffff;
+}
+.box-like {
+	width: 100%;
+	height: 25px;
+}
+custom-like {
+	margin-left: 20px;
+}
+
+/* Estilo para el fondo borroso cuando el popup está abierto */
+body.popup-open {
+	overflow: hidden; /* Evitar el desplazamiento de la página */
+}
+
+body.popup-open::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+	z-index: 9998; /* Colocar detrás del popup */
+}
+
+/* Estilo para el popup */
+.popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	width: 500px;
+	height: 600px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	background: #25245e;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el contenido del popup */
+.popup-content {
+	text-align: center;
+	position: relative; /* Añadido para posicionar el comentario */
+}
+
+/* Estilo para la imagen dentro del popup */
+.popup-image {
+	width: 500px;
+	height: 500px;
+	object-fit: cover; /* Ajustar la imagen dentro del contenedor manteniendo la relación de aspecto */
+	border-radius: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el botón de cerrar el popup */
+.close-popup {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	font-size: 30px;
+	color: #fff;
+}
+
+.comment {
+	position: absolute;
+	left: 30%;
+	color: #fff;
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5;
+	max-width: 90%;
+	overflow-wrap: break-word;
+	text-align: center;
+}
+
+@keyframes tada {
+	0% {
+		transform: scale(1);
+	}
+	5%,
+	10% {
+		transform: scale(0.98) rotate(-1deg);
+	}
+	15%,
+	20% {
+		transform: scale(1.02) rotate(1deg);
+	}
+	25%,
+	30% {
+		transform: scale(0.99) rotate(-1deg);
+	}
+	35%,
+	40% {
+		transform: scale(1.01) rotate(1deg);
+	}
+	45%,
+	50% {
+		transform: scale(0.999) rotate(-1deg);
+	}
+	55%,
+	60% {
+		transform: scale(1.001) rotate(1deg);
+	}
+	65%,
+	70% {
+		transform: scale(1.0001) rotate(-1deg);
+	}
+	75%,
+	80% {
+		transform: scale(1.0001) rotate(1deg);
+	}
+	85%,
+	90% {
+		transform: scale(1) rotate(-0.5deg);
+	}
+	95%,
+	100% {
+		transform: scale(1) rotate(0);
+	}
+}
+
+.comment {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.comment.show {
+	opacity: 1;
+	animation: tada 0.8s forwards ease-in-out;
+	transform-origin: center;
+}

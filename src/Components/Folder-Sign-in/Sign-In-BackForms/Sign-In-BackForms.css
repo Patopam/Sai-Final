@@ -1,0 +1,40 @@
+
+section{
+    width: 500px;
+    height: 700px;
+    background-color: #25245E;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    border-radius: 20px;
+    
+}     
+.box-signUp{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}  
+h1{
+    margin: 0;
+    font-size: 30px;
+    color: #FFF;
+    font-family: Satoshi;
+}
+
+@media (max-width: 800px) {
+    section{
+        left: 28%;
+        top: 10%;
+    } 
+}
+
+@media (max-width: 400px) {
+    section{
+        width: 350px;
+        height: 650px;
+        left: 5%;
+        top: 10%;
+    } 
+}

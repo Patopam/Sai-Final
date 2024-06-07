@@ -1,0 +1,34 @@
+section {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.box-img {
+	width: 45vw;
+	height: 100vh;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 800px) {
+	.box-img {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	custom-lbackforms {
+		margin-left: 15px;
+		margin-top: 10%;
+	}
+
+	custom-lbackforms {
+		left: 10px;
+	}
+
+	custom-lbackforms {
+		height: 30px;
+	}
+}

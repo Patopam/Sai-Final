@@ -1,0 +1,63 @@
+.box {
+	width: 110px;
+	height: 31px;
+	position: absolute;
+	top: 80px;
+	left: 110px;
+	font-family: 'Satoshi-Medium', Helvetica;
+	font-weight: 500;
+	color: #7796f1;
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+button {
+	all: unset;
+	box-sizing: border-box;
+	position: relative;
+	width: 200px;
+	height: 31px;
+	border-radius: 40px;
+	border: 1px solid;
+	border-color: #393879;
+	transition: background-color 0.3s; /* Agrega transición para suavizar el cambio de color */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box .button:active {
+	background-color: #7796f1; /* Cambia el color cuando se presiona el botón */
+}
+
+input[type='file'] {
+	display: none; /* Oculta el input por defecto */
+}
+
+.box {
+	position: relative; /* Asegura que la caja sea relativa para posicionar correctamente el input */
+}
+
+.custom-button {
+	all: unset;
+	box-sizing: border-box;
+	position: absolute; /* Posiciona el botón de manera absoluta dentro de la caja */
+	width: 200px;
+	height: 31px;
+	border-radius: 40px;
+	border: 1px solid;
+	border-color: #393879;
+	transition: background-color 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.custom-button:hover {
+	background-color: #f1f1f1; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+.custom-button:active {
+	background-color: #7796f1; /* Cambia el color cuando se presiona el botón */
+}

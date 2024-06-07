@@ -1,0 +1,23 @@
+#seguir {
+	background-color: rgb(255, 255, 255);
+	margin-right: 15px;
+	border-color: transparent;
+	width: 85px;
+	height: 30px;
+	border-radius: 30px;
+
+    font-family: Satoshi;
+
+	font-size: 12px;
+
+}
+
+.deshabilitar {
+	background-color: #171640 !important ;
+	color: rgb(255, 255, 255);
+}
+
+.habilitar {
+	background-color: rgb(255, 255, 255) !important ;
+	color: black;
+}

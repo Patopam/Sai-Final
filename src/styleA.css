@@ -1,0 +1,128 @@
+/*feed*/
+
+.contenedorfeed {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 26%;
+	right: 25%;
+	top: 27%;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+	/*background-color: rgb(255, 0, 0);*/
+}
+
+@media (max-width: 800px) {
+	.contenedorfeed {
+		width: 90%;
+		height: 90%;
+		left: 5%;
+		right: 10%;
+	}
+}
+@media (max-width: 400px) {
+	.contenedorfeed {
+		width: 90%;
+		height: 90%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+/*followers*/
+
+.contenedorfollowers {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 670px;
+	left: 4%;
+}
+
+@media (max-width: 800px) {
+	.contenedorfollowers {
+		display: none;
+	}
+}
+@media (max-width: 800px) {
+	custom-follobackgrond {
+		display: none;
+	}
+}
+custom-follobackgrond {
+	position: absolute;
+	left: 2.3%;
+	top: 620px;
+}
+
+/*user*/
+
+.contenedoruser {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 100px;
+	left: 2%;
+}
+
+@media (max-width: 800px) {
+	.contenedoruser {
+		display: none;
+	}
+}
+
+/*trend*/
+
+.contenedortrend {
+	flex-direction: column;
+	position: absolute;
+	top: 20%;
+	left: 76%;
+}
+
+custom-trending {
+	flex-direction: column;
+	position: relative;
+	top: 100px;
+	left: 75%;
+}
+
+@media (max-width: 1280px) {
+	.contenedortrend {
+		display: none;
+	}
+}
+
+@media (max-width: 1280px) {
+	custom-trending {
+		display: none;
+	}
+}
+
+/*nav-app*/
+
+nav-app {
+	display: none;
+}
+@media (max-width: 800px) {
+	nav-app {
+		display: flex;
+	}
+}
+
+/*welcome*/
+
+.contenedorwelcome {
+	flex-direction: column;
+	position: absolute;
+	left: 26%;
+	top: 110px;
+}
+
+@media (max-width: 800px) {
+	.contenedorwelcome {
+		display: none;
+	}
+}

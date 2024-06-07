@@ -1,0 +1,28 @@
+.Trendss {
+	display: flex;
+}
+
+.Tnames {
+	display: flex;
+	flex-direction: column;
+}
+
+.Tnames h2 {
+	color: #fff;
+	font-family: Satoshi;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin: 0;
+}
+
+.number-post {
+	color: #7796f1;
+	font-family: Satoshi;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin: 0;
+}

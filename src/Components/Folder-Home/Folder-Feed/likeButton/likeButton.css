@@ -1,0 +1,14 @@
+.bxs-like {
+	font-size: 25px;
+	color: white;
+}
+button {
+
+	background-color: transparent;
+	border: none;
+}
+
+button:active .bxs-like {
+	color: rgb(255, 0, 0);
+}
+

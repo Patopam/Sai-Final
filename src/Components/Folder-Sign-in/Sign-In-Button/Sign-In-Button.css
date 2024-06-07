@@ -1,0 +1,25 @@
+
+section{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Box-LogIn{
+    display: flex;
+    color: #7796F1;
+    font-size: 18px;
+    font-family: Satoshi;
+}
+.Button-LogIn{
+   background-color: transparent;
+   border: transparent;
+   font-size: 18px;
+   color: #FFFFFF;
+}
+.Button-LogIn:active{
+    color: #171640 ;
+}
