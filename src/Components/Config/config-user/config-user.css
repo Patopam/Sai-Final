@@ -48,13 +48,15 @@ img {
 
 @media (max-width: 450px) {
 	img {
-		top: 13%;
+		top: 16%;
+		width: 90px;
+		height: 90px;
 	}
 }
 
 @media (max-width: 450px) {
 	.top h1 {
-		top: 26%;
+		top: 27%;
 	}
 }
 
